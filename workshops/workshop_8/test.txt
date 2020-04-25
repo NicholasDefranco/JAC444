@@ -1,0 +1,27 @@
+This is to test Task2.Notice how some sentences have capitol T for this and some with a lowercase t
+This assignment had 2tasks.
+This -is a part of a sentence(or is it?)and then[possibly]the end. Another sentence with a space after the last dot.
+Notice the dash just before "is"(previous line), is NOT considered a word
+we use{braces}to create a block
+this,is,a,list;more stuff:even more stuff.
+	This is a question?test
+"this is a quote"I am not a quote
+`this is another quote`quotes!
+this/or this
+'c'woah!A character!
+I like$money <- will be ignored
+The rest of file contains words to be ignored because they contain a non-alphabetic character
+des~tructor();Ha! Not a word!
+p+lus
+*multiply
+equa=l
+less<
+gre>ater
+backs\lash
+n#umber
+m@ention
+pe%rcent
+care^t
+an&d
+o|r
+unders_core
