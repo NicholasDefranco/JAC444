@@ -1,0 +1,9 @@
+RMI allows transmitting of information similar to sockets with the addition of
+interacting with objects residing on another machine. Objects a machine wishes
+to be accessible must be defined by a class implementing an interface declaring
+methods to be available for object interaction. This interface then implements
+the java.rmi.Remote interface. An object of this type is listed with a name to
+associate it with on a remotely accessible list. Other machines communicate
+with the providing machine for retrieval of the object through searching the
+provided list by name. Special wrapper objects are used to process requests
+and responses.

@@ -1,0 +1,9 @@
+In Java, multithreading is the concept of allowing two or more threads (jobs)
+to execute at the same time as instructed by an application. The Thread class
+defines instances which are containers for a specified job. A job is a
+collection of statements performing a meaningful operation. To allow a newly
+created thread to execute along with the existing thread(s), an existing
+thread (parent) must instruct the runtime to start executing the new thread’s
+job using the start() method. Thread instances have an associated status during
+their execution which can be manipulated using methods defined in the Thread
+class.

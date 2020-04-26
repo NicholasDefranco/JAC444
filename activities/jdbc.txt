@@ -1,0 +1,9 @@
+The JDBC API allows for performing any operation on any Relational Database
+Management System. To interface with a database, it’s associating JDBC driver
+class must be used. The client must provide a location of the database (using
+the Driver’s getConnection() method) to obtain a Connection object. The
+Connection object can be used to create a Statement object (by invoking
+Connection’s createStatement() method) used to execute SQL statements by
+passing it as a String to the Statement’s methods. Statements that query the
+database return the data within a table which can be accessed similar to that
+of using iterators with collections.
